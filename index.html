@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="box" id="home">
+                <h3 id="home-team">HOME</h3>
+                <h4 id="home-points-el">0</h4>
+                <div class="add-points">
+                    <p onclick="addOnePointHome()">+1</p>
+                    <p onclick="addTwoPointsHome()">+2</p>
+                    <p onclick="addThreePointsHome()">+3</p>
+                </div>
+            </div>
+            <div class="box" id="guest">
+                <h3 id="guest-team">GUEST</h3>
+                <h4 id="guest-points-el">0</h4>
+                <div class="add-points">
+                    <p onclick="addOnePointGuest()">+1</p>
+                    <p onclick="addTwoPointsGuest()">+2</p>
+                    <p onclick="addThreePointsGuest()">+3</p>
+                </div>
+            </div>
+        </div>
+        <button onclick="newGame()">NEW GAME</button>
+        <script src="index.js"></script>
+    </body>
+</html>
